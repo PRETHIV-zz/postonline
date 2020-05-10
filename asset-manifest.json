@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/postonline/static/css/main.5f361e03.chunk.css",
+    "main.js": "/postonline/static/js/main.0532cc31.chunk.js",
+    "main.js.map": "/postonline/static/js/main.0532cc31.chunk.js.map",
+    "runtime-main.js": "/postonline/static/js/runtime-main.f8136752.js",
+    "runtime-main.js.map": "/postonline/static/js/runtime-main.f8136752.js.map",
+    "static/css/2.f65acde2.chunk.css": "/postonline/static/css/2.f65acde2.chunk.css",
+    "static/js/2.34e50f83.chunk.js": "/postonline/static/js/2.34e50f83.chunk.js",
+    "static/js/2.34e50f83.chunk.js.map": "/postonline/static/js/2.34e50f83.chunk.js.map",
+    "index.html": "/postonline/index.html",
+    "precache-manifest.6f98eec18c5184d0a78383a330d92aca.js": "/postonline/precache-manifest.6f98eec18c5184d0a78383a330d92aca.js",
+    "service-worker.js": "/postonline/service-worker.js",
+    "static/css/2.f65acde2.chunk.css.map": "/postonline/static/css/2.f65acde2.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/postonline/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.34e50f83.chunk.js.LICENSE.txt": "/postonline/static/js/2.34e50f83.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/postonline/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8136752.js",
+    "static/css/2.f65acde2.chunk.css",
+    "static/js/2.34e50f83.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.0532cc31.chunk.js"
+  ]
+}
