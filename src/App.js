@@ -17,7 +17,8 @@ export default class App extends React.Component{
       output:'',
       inpCN:"card bg-light",
       opCN:"card bg-light",
-      errCnt:0
+      errCnt:0,
+      loading:false
     }
     this.auxilary={
       EP:'https://jsonplaceholder.typicode.com/users',
@@ -71,12 +72,11 @@ export default class App extends React.Component{
 
   hitit= async(event)=>{
 
-
     console.log("Choice",this.auxilary.choice)
 
     console.log("EP",this.auxilary.EP)
 
-    this.setState({output:""})
+    this.setState({output:"",loading:true})
     this.setState({inpCN:"card bg-light"})
     this.setState({opCN:"card bg-light"})
     console.log("Inside hitit ",event.target.value)
@@ -187,6 +187,7 @@ export default class App extends React.Component{
  
     }
 
+    this.setState({loading:false})
     //this.setState({output:input1})
     //this.setState({output:input1})
     //console.log("Input1",input1)
@@ -237,7 +238,15 @@ export default class App extends React.Component{
       <br/>
       <br/>
       <div className="jumbotron">
-          <div className="row">
+      {this.state.loading?<div className="row">
+            <div className="col-12">
+            <div class="alert alert-primary">
+                        <strong>LOADING</strong> Hitting the api
+                      </div>
+        </div>
+        </div>:<div/>
+  }
+        <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <div className={this.state.inpCN}>
                 <div className="card-body">
