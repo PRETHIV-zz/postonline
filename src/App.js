@@ -220,7 +220,7 @@ export default class App extends React.Component{
         <div className="card-body">
           <div className="form-group">
 
-            <input onChange={this.urlChange} type="text" className="form-control" id="usr" placeholder="Paste Your EndPoint Here" value="https://jsonplaceholder.typicode.com/users" />
+            <input onChange={this.urlChange} type="text" className="form-control" id="usr" placeholder="Paste Your EndPoint Here" value={this.state.endpoint} />
             <br/>
             <select onChange={this.choiceChange} className="form-control" id="sel1">
               <option>GET</option>
