@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c7c84ac207f55a10030aca43eb4eaf3",
+    "revision": "8ba164f0aa4474704b9ba7daa153b5c1",
     "url": "/postonline/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/postonline/static/css/2.f65acde2.chunk.css"
   },
   {
-    "revision": "03b7b1c86f9e22c6ee65",
+    "revision": "6f9bb2e0187f4816a44d",
     "url": "/postonline/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/postonline/static/js/2.34e50f83.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "03b7b1c86f9e22c6ee65",
-    "url": "/postonline/static/js/main.0532cc31.chunk.js"
+    "revision": "6f9bb2e0187f4816a44d",
+    "url": "/postonline/static/js/main.2c573fe3.chunk.js"
   },
   {
     "revision": "c1ee39a398aa5338a839",
